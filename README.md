@@ -1,5 +1,5 @@
 A script that simulates encryption and decryption of files (like a ransomware) that takes into consideration possible encryption corruptions during the process of said encryption/decryption. 
-It uses a simple file handling technique to ensure that a file will always be recoverable regardless if it is corrupted while in the process of encryption/decryption.
+It uses a simple file handling technique to ensure that a file will always be recoverable regardless if it is corrupted while in the process of encryption/decryption. (creating copies before any operation starts, deleting them if operation is successful, using them as recovery if operation deemed unsuccessful).
 
 The scripts were implemented with the help of the DeepSeek tool.
 100 tests were ran on 103 txt files (3 of the files having an abnormal size of 1.1GB).
